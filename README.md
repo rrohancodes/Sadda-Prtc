@@ -1,4 +1,4 @@
-# SADDA PRTC ("Inspired By Namma BMTC App")
+# Sadda Prtc ("Inspired By Namma BMTC App")
 
 A full‑stack smart transit prototype providing real‑time inter/intra‑city bus tracking, dynamic corridor visualization (Bengaluru ⇄ Tumkur), generated corridor bus stops, next‑stop distance lookup, journey planning scaffolding, fare logic, and multilingual mobile UI (incl. Punjabi) built during a rapid hackathon sprint.
 
