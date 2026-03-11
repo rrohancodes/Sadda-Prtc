@@ -1,0 +1,221 @@
+{
+  "profile": {
+    "signIn": "Sign In / Register",
+    "signOut": "Sign Out",
+    "guest": "Guest User",
+    "signinHint": "Sign in to personalize",
+    "travelStats": "Your Travel Stats",
+    "accountSettings": "Account & Settings",
+    "emergency": {
+      "title": "Emergency SOS",
+      "subtitle": "Quick access to emergency services"
+    },
+    "about": {
+      "version": "Version 1.0.0",
+      "desc": "Sadda PRTC - Your Smart Transit Companion",
+      "alertMsg": "Namma PRTC app v1.0.0\nBuilt with React Native & Expo"
+    },
+    "options": {
+      "trips": { "title": "My Trips", "subtitle": "View your travel history" },
+      "saved": { "title": "Saved Places", "subtitle": "Home, Work, and favorite locations" },
+      "payment": { "title": "Payment Methods", "subtitle": "Manage your payment options" },
+      "notifications": { "title": "Notifications", "subtitle": "Manage your notification preferences" },
+      "language": { "title": "Language" },
+      "help": { "title": "Help & Support", "subtitle": "Get help and contact support" },
+      "about": { "title": "About", "subtitle": "App version and information" }
+    },
+    "stats": {
+      "totalTrips": "Total Trips",
+      "distanceTraveled": "Distance Traveled",
+      "moneySaved": "Money Saved"
+    },
+    "languageDialog": {
+      "title": "Language",
+      "message": "Select language",
+      "cancel": "Cancel"
+    }
+  },
+  "common": {
+    "errorTitle": "Error",
+    "permissionDenied": "Permission Denied",
+    "loadingSession": "Loading session...",
+    "comingSoonTitle": "Coming soon",
+    "comingSoonMsg": "This feature is coming soon."
+  },
+  "live": {
+    "loading": "Loading live tracking...",
+    "headerTitle": "Live Bus Tracking",
+    "yourLocation": "Your Location",
+    "fetchBusesFail": "Failed to fetch bus locations",
+    "fetchBusesError": "Unable to fetch bus locations. Please try again.",
+    "permissionMessage": "Location permission is required for live tracking.",
+    "getLocationError": "Unable to get your location.",
+    "intercity": "Intercity",
+    "routeBLR_TM": "Bengaluru ⇄ Tumkur",
+    "kmph": "km/h",
+    "eta": "ETA",
+    "occupancySuffix": "occupancy",
+    "progress": "Progress",
+    "metersShort": "m",
+    "busList": "Bus List",
+    "filter": "Filter",
+    "navigate": "Navigate"
+  },
+  "home": {
+    "welcome": "Welcome to",
+    "brand": "SADDA PRTC",
+    "tagline": "Your Smart Transit Companion",
+    "sosButton": "Emergency SOS",
+    "quickActionsTitle": "Quick Actions",
+    "recentTripsTitle": "Recent Trips",
+    "noTrips": "No recent trips",
+    "noTripsSubtext": "Start planning your journey to see your trips here",
+    "featuresTitle": "Features",
+    "features": {
+      "realtime": "Real-time Updates",
+      "safeSecure": "Safe & Secure",
+      "digitalPayments": "Digital Payments",
+      "community": "Community"
+    },
+    "quick": {
+      "liveTitle": "Live Bus Tracking",
+      "liveSubtitle": "Track buses in real-time",
+      "nearbyTitle": "Nearby Stops",
+      "nearbySubtitle": "Find bus stops near you",
+      "planTitle": "Plan Journey",
+      "planSubtitle": "Get route suggestions",
+      "fareTitle": "Fare Calculator",
+      "fareSubtitle": "Calculate bus fare"
+    }
+  },
+  "journey": {
+    "enterBoth": "Please enter both source and destination locations.",
+    "defaultFreq": "15-20 mins",
+    "mins": "mins",
+    "km": "km",
+    "every": "Every",
+    "stops": "stops",
+    "viewRouteDetails": "View Route Details",
+    "fromPlaceholder": "From (Source)",
+    "toPlaceholder": "To (Destination)",
+    "searching": "Searching...",
+    "searchRoutes": "Search Routes",
+    "popularDestinations": "Popular Destinations",
+    "availableRoutes": "Available Routes",
+    "routesFound": "routes found",
+    "travelTips": "Travel Tips",
+    "tip": {
+      "peakHours": "Peak hours: 8-10 AM, 6-8 PM",
+      "card": "Use PRTC card for cashless travel",
+      "safeBelongings": "Keep your belongings safe"
+    },
+    "noRoutesTitle": "No Routes Found",
+    "noRoutesMsg": "No direct routes found between the selected locations. Please try different locations.",
+    "connErrorTitle": "Connection Error",
+    "connErrorMsg": "Unable to connect to the server. Please check your internet connection and try again.",
+    "timeoutTitle": "Timeout Error",
+    "timeoutMsg": "The request took too long to complete. Please try again.",
+    "genericError": "Unable to plan journey. Please try again."
+  },
+  "nearby": {
+    "noStopsTitle": "No Stops Found",
+    "noStopsMsg": "No bus stops found in your area. Our sample data covers central Bangalore locations like Majestic, Koramangala, and Electronic City.",
+    "km": "km",
+    "fetchFail": "Failed to fetch nearby bus stops",
+    "fetchError": "Unable to fetch nearby bus stops. Please try again.",
+    "permissionMessage": "Location permission is required to find nearby bus stops.",
+    "getLocationError": "Unable to get your location. Please try again.",
+    "routes": "Routes",
+    "facilities": "Facilities",
+    "loading": "Finding nearby bus stops...",
+    "currentLocation": "Current Location",
+    "locationNotAvailable": "Location not available",
+    "emptyTitle": "No bus stops found nearby",
+    "emptySubtext": "Our sample data covers central Bangalore areas. Try locations like Majestic, Koramangala, or Electronic City."
+  },
+  "sos": {
+    "locationPermissionTitle": "Location Permission Required",
+    "locationPermissionMsg": "Location access is needed for emergency services to locate you.",
+    "emergencyAlertTitle": "Emergency Alert",
+    "emergencyAlertMsg": "This will send your location to emergency services and trusted contacts. Are you sure?",
+    "cancel": "Cancel",
+    "startEmergency": "Start Emergency",
+    "cancelledTitle": "Emergency Cancelled",
+    "cancelledMsg": "Emergency alert has been cancelled.",
+    "sentTitle": "Emergency Alert Sent!",
+    "sentMsg": "Your location has been shared with emergency services and your trusted contacts.",
+    "callPolice": "Call Police (100)",
+    "callNotSupported": "Phone calls are not supported on this device",
+    "locationNA": "Location Not Available",
+    "waitLocation": "Please wait while we get your location.",
+    "locationSharedTitle": "Location Shared",
+    "locationSharedMsg": "Your location has been prepared for sharing:",
+    "emergency": "EMERGENCY",
+    "tapToActivate": "Tap to activate",
+    "pressToSend": "Press to send your location to emergency services and trusted contacts",
+    "yourLocation": "Your Location",
+    "gettingLocation": "Getting your location...",
+    "accuracy": "Accuracy:",
+    "shareLocation": "Share Location",
+    "locationNotAvailable": "Location not available. Please check your settings.",
+    "emergencyContacts": "Emergency Contacts",
+    "safetyTips": "Safety Tips",
+    "tips": {
+      "stayCalm": "Stay calm and alert in emergency situations",
+      "sharePlans": "Share your travel plans with trusted contacts",
+      "keepCharged": "Keep your phone charged during travel",
+      "trustInstincts": "Trust your instincts and seek help when needed"
+    },
+    "emergencyIn": "Emergency in",
+    "seconds": "seconds",
+    "cancelEmergency": "Cancel Emergency",
+    "contacts": {
+      "police": "Police",
+      "fire": "Fire Department",
+      "ambulance": "Ambulance",
+      "women": "Women Helpline",
+      "bmtc": "PRTC Control Room"
+    },
+    "contactsDesc": {
+      "police": "For immediate police assistance",
+      "fire": "Fire emergency services",
+      "ambulance": "Medical emergency services",
+      "women": "24/7 women safety helpline",
+      "bmtc": "PRTC emergency assistance"
+    }
+  },
+  "tabs": {
+    "home": "SADDA PRTC",
+    "headerBrand": "SADDA PRTC",
+    "nearby": "Nearby Stops",
+    "journey": "Journey Planner",
+    "profile": "Profile"
+  },
+  "auth": {
+    "welcomeBack": "Welcome back",
+    "createAccount": "Create account",
+    "signInToContinue": "Sign in to continue",
+    "registerToStart": "Register to get started",
+    "signIn": "Sign in",
+    "register": "Register",
+    "switchToRegister": "No account? Register",
+    "switchToLogin": "Have an account? Sign in",
+    "cancel": "Cancel",
+    "placeholders": {
+      "name": "Name",
+      "email": "Email (leave empty if using phone)",
+      "phone": "Phone (leave empty if using email)",
+      "password": "Password"
+    },
+    "errors": {
+      "nameRequired": "Name is required",
+      "emailOrPhone": "Email or phone is required",
+      "invalidEmail": "Invalid email",
+      "phoneShort": "Phone is too short",
+      "passwordMin": "Password must be at least 6 characters",
+      "passwordRequired": "Password is required",
+      "loginFailed": "Login failed",
+      "registerFailed": "Registration failed"
+    }
+  }
+}
